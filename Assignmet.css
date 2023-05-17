@@ -1,0 +1,27 @@
+body {
+    background: whitesmoke;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: darkslategrey;
+}
+dt {
+    font-size: 25px;
+}
+dd {
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+li::marker{
+    color: teal;
+}
+.main {
+    width: 40%;
+    margin: 40px auto;
+    background: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: 2px dotted teal;
+}
